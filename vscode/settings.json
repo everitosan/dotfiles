@@ -1,0 +1,15 @@
+{
+    "editor.tabSize": 2,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.colorTheme": "Qiita",
+    "svelte.enable-ts-plugin": true,
+    "editor.accessibilityPageSize": 14,
+    "editor.scrollbar.horizontalScrollbarSize": 18,
+    "window.zoomLevel": 1,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
