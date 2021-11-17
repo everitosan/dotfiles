@@ -1,0 +1,6 @@
+# Vim
+vim/.vim/plugged
+
+# VSCode
+vscode/globalStorage
+vscode/workspaceStorage
