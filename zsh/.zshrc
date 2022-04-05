@@ -151,47 +151,21 @@ alias tree="exa -T"
 alias n=~/bin/nvim.appimage
 alias bat="batcat"
 alias a-studio="~/bin/mobile/android-studio/bin/studio.sh"
-alias calcurse-up="aws s3 sync ~/.local/share/calcurse s3://calcurseve/data"
-alias calcurse-down="aws s3 sync s3://calcurseve/data ~/.local/share/calcurse"
 # neofetch;
 
 GREEN='\033[0;32m'
+BLUE='\033[0;34m'
 NC='\033[0m'
-echo -e "${GREEN}
-                                                                                                    
-                                     \`/:                                                            
-                                   \`:sd.      \`\`--::---\`                                            
-                                  \`:/s/   .::ohsysssys:\`                                            
-                             \`..\`\`:/+s\`\`.o+s+/++ooys:\`    \`                                         
-                         \`-ohdmmdys+..\`-/:.--:/+oy/.\`\`\`--o+.                                        
-             \`.-.//-+oss-/mNyysyddNmo/-...-//:/+o:\`\`\`.:///-----.\`\`                                  
-          .////yodm/mmhs-/dsyosss+dmMydo.---+:...-::+ooyhydhdhyyyyo+-                               
-          /o+oshhhdhdmmddyy:/+ms/o+NNNyM+s/..--//+/++://:/o+/+oshdy/-                               
-      \`..shmohmmmmmmmhosyddds+m/-oommMyM/-oydmdddy//:::///+oossyo-\`\`\`                               
-    \`:shNNNmhyoo+++ohNNmhssshdy++o/dmNdh--mmNdmmNNNh//:/+ooso/-.\`\`.-.\`                              
-   :dNdyo+/-.syyyy/.../odNmhooodsoyodMMy:+Mmh:\`.+Nmmo./o/:-.-:::+:::::/.\`\`                          
-  \`-o/oyys.\`-dMMNd+\`\`+y+-:ohNmy+sdo-hmNms-sdmh/\`.mmNh\`---:-..://sosso/-+so/.\`                       
-   \`\`-hdmd/\`-hMMMMs\`-NMm.\`-o+/smNhy+oyNMNh//o/:+omNm+.osssddyo:./yhs/-://:+o+/\`                     
-    \`.hMMNd::-dMMMm.:MMM+\`+MMNo-:sdNh++mmMMNmmNmNdNs\`.:-:oyyhhmmd+.-::+s++//..-\`                    
-     \`-hyoMMo-+hdmms/dmNh\`:MMM/.yh-:/hh++ymmmmmMd+-\`-+++/+/+/+oshmms:/s/.\`\`::-\`                     
-     \`:MM/MM//mhhdmmNNNmdysddh:/mm-\`\`-hM/.:+oy:-\`.-:/-:/:::o+oyoooyyhs-/y+..--s+.                   
-    .d-mMomMy.os-sso++//++syhdmNNNNNNmh+:oo-/s\`\`\`-/+yyhyosydsymdNmddhhh:-oy/-::/oo.                 
-    \`::sMmoMN//s-yyhdmmsNNohs//----/--:ohh+-d-\`\`\`\`\`\`..-:.:::.-:--..---.o+/+oo:/+oos+\`               
-     oo+dy:o+/++///++:+sssodmoNNodmdNmdmNysh:\`\`\`\`\`-//:::..--\`.://+:.:+/oo+ooss-..-::.\`              
-     \`-..---...\`\`\`\`\`..---/+/:/+ooyhhddmdhs/.\`\`\`\`:.\`-:++os+:-///::oyo-..:-.://o+\`\`.-/-\`              
-          \`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`......--.....\`\`\`\`\`\`/://-.-+yhdmo.-:/++/o++-/o--++//-:o:-//.             
-                  \`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`+-/-+s:.-oydNh::/+/+oo+y/oho::o/o+oyo/:+:\`           
-                      \`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`.+o::+sy/--ohmd-\`/-.:+o/-::oys+ooy/-+ss++o:\`         
-                      \`\`\`\`\`\`\`\`\`..\`\`\`\`\`\`\`:.\`...\`\`:hyo+s+oso::+hd-:++:-+o+:/.-/::oyh-/-.-/::\`         
-                     \`\`..\`\`\`\`:--/\`..\`\`:.-/.-://-\`.+syhy/sosy+/yd..+so//oo/o.s:.:/-.+o/.-:\`          
-                      \`+\`\`  \`/+.s\`:+-\`:o/:+-//+s-.:///+oyyhdhhydy\`+/+ssooyssos/./:+./y+--/.         
-                      ./\`   \`.++s./s+\`\`-+o/+:/oos-+:oo/..////+oyd:-y:\`++syhN/oyo-s/o\`:sy+:+.        
-                      \`\`     \`.+ss/y/\` \`.:oos+ssd:\`.::sso+oo\`\`+s::..h:o/s-/+/:+oo+hy--::yhos.       
-                              \`.+d-yy\`   \`.ooss+sh\`   .:/so+:\`\`.osy\`-hs+m/o:.o.y:+sh+/+\`.yyhh\`      
-                                ./osy\`     \`-/ossm-\`      \`-:\`\`  .:\` :N/o-do-o/+yd-.:o//\`/d:-\`      
-                                 \`:+h\`        \`-/so\`                 \`.\`\`s/hs-y-yyy-:s-y-:+o/\`      
-                                   \`.             .                      .\`\`-..\`.\`-. .\`.\`.\`..\`      
-                                                                                                    
-
+echo -e "${BLUE}
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+░░        ░░░░░░░░░░        ░░░░░░░░░░        ░░░░░░░░░░        ░░░░░░░░░░        
+░░░░      ░░      ░░░░      ░░      ░░░░      ░░      ░░░░      ░░      ░░░░      
+░░░░░░    ░░░░░░  ░░░░░░    ░░░░░░  ░░░░░░    ░░░░░░  ░░░░░░    ░░░░░░  ░░░░░░    
+░░░░░░░░          ░░░░░░░░          ░░░░░░░░          ░░░░░░░░          ░░░░░░░░  
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░ ░  ░  ░
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ${NC}";
 
