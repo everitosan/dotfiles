@@ -11,7 +11,7 @@ function clean {
 
 function create_link {
   # Create symbolic links for config
-  ln -s "$(pwd)./config" "${CONFIG_DIR}"
+  ln -s "$(pwd)/config" "${CONFIG_DIR}"
   # Creates empty dir for data 	 
   mkdir -p "${DATA_DIR}"
 }
