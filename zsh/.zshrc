@@ -146,12 +146,20 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+_change_branch() {
+  branch_name=$(git branch | fzf);
+  git checkout "${branch_name##*( )}";
+}
+
 alias l="exa -lah"
 alias tree="exa -T"
 alias n=~/bin/nvim.appimage
+alias obsidian="~/bin/Obsidian-0.14.6.AppImage"
 alias bat="batcat"
 alias a-studio="~/bin/mobile/android-studio/bin/studio.sh"
+alias gcb="_change_branch"
 # neofetch;
+
 
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
