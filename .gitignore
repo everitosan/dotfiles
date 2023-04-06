@@ -1,7 +1,1 @@
-# Vim
-vim/.vim/plugged
-
-# VSCode
-vscode/globalStorage
-vscode/workspaceStorage
-vscode/syncLocalSettings.json
+nvim/plugin
